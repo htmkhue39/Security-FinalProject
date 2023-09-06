@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import ASView from './ASView';
-import TGSView from './TGSView';
+import './App.css';
+import ASView from './components/ASView';
+import TGSView from './components/TGSView';
+import Banner from './components/Banner';
 
 function App() {
   const [currentView, setCurrentView] = useState('AS');
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <Banner />
       {currentView === 'AS' ? (
         <ASView onClick={handleButtonClick} />
       ) : (

@@ -1,5 +1,26 @@
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --title: #ffffff;
+  --text: #242d49;
+  --bg-color:  #E8F3F0;
+  --main-theme: #97C4B8;
+  --gray: #788097;
+  --purple: #BEAEE2;
+  --light-purple: #EDE4FF;
+  --pink: #F69191;
+  --light-pink: #FFE3E1;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: rgba(151, 196, 184, 0.329)
+}
+
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +56,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Title {
+  
+  font-family: cursive;
+  font-size: 60px;
 }

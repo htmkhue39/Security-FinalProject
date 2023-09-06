@@ -1,9 +1,13 @@
 import React from 'react';
+import './EncryptView.css';
 
 function EncryptView() {
   return (
-    <div>
-        <h2>Encrypt View</h2>
+    <div className='EncryptView'>
+        <div className='title'>
+            <h2>Encrypt View</h2>
+        </div>
+    
         <form>
             <label>
                 Plaintext:
