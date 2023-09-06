@@ -5,7 +5,7 @@ function EncryptView() {
   return (
     <div className='EncryptView'>
         <div className='title'>
-            <h2>Encrypt View</h2>
+            <h2>Crypto Pocket Calculator</h2>
         </div>
     
         <form>
