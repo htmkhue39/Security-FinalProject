@@ -9,6 +9,9 @@ function App() {
     if (currentView === 'AS') {
       setCurrentView('TGS');
     }
+    else {
+      setCurrentView('AS');
+    }
   };
 
   return (
@@ -16,7 +19,7 @@ function App() {
       {currentView === 'AS' ? (
         <ASView onClick={handleButtonClick} />
       ) : (
-        <TGSView />
+        <TGSView onClick={handleButtonClick} />
       )}
     </div>
   );

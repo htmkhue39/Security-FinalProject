@@ -1,7 +1,7 @@
 import React from 'react';
 import EncryptView from './EncryptView';
 
-function TGSView() {
+function TGSView({ onClick }) {
   return (
     <div>
         <h3>The Authentication Server says: </h3>
@@ -27,7 +27,7 @@ function TGSView() {
             </label>
         </form>
         <button>Send to TGS</button>
-
+        <button onClick={onClick}>Back to AS</button>
         <EncryptView />
     </div>
   );
